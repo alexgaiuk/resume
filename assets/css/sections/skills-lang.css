@@ -1,0 +1,30 @@
+/*========== SKILLS AND LANGUAGES ==========*/
+.skills__content,
+.languages__content {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skills__content {
+  gap: 0;
+}
+
+.languages__content {
+  gap: 0;
+}
+
+.skills__name,
+.languages__name {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-3);
+}
+
+.skills__bullet,
+.languages__bullet {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  margin-right: .75rem;
+}
