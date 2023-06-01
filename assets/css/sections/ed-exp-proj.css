@@ -54,3 +54,7 @@
 .education__year {
   font-size: var(--smaller-font-size);
 }
+
+.uni-projects-h3 {
+  margin-top: 1rem;
+}
