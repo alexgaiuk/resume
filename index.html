@@ -7,6 +7,7 @@
 
     <!--==========ICONS ==========-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://kit.fontawesome.com/3ec589421b.js" crossorigin="anonymous"></script>
 
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -18,56 +19,62 @@
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
-            <a href="#" class="nav__logo">Gaiuk</a>
+            <a href="#" class="nav__logo">Gaiuk Resume</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
                         <a href="#home" class="nav__link active-link">
-                            <i class='bx bx-home nav__icon'></i>Home
+                            <i class="fa-solid fa-house"></i></i>Home
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#profile" class="nav__link">
-                            <i class='bx bx-user-circle nav__icon'></i>Profile
+                            <i class="fa-solid fa-user"></i>Profile
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#education" class="nav__link">
-                            <i class='bx bx-book-open nav__icon'></i>Education
+                            <i class="fa-solid fa-school"></i>Education
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
-                            <i class='bx bx-wrench nav__icon'></i>Skills
+                            <i class="fa-solid fa-wrench"></i>Skills
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#experience" class="nav__link">
-                            <i class='bx bx-briefcase nav__icon'></i>Experience
+                            <i class="fa-solid fa-briefcase"></i>Experience
                         </a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="#certificates" class="nav__link">
-                            <i class='bx bx-certification nav__icon'></i>Certificates
+                        <a href="#projects" class="nav__link">
+                            <i class="fa-solid fa-diagram-project"></i>Projects
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#references" class="nav__link">
-                            <i class='bx bx-link nav__icon'></i>References
+                            <i class="fa-solid fa-square-arrow-up-right"></i>References
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#languages" class="nav__link">
+                            <i class="fa-solid fa-language"></i>Languages
                         </a>
                     </li>
                 </ul>
             </div>
 
             <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+                <i class="fa-solid fa-bars"></i>
             </div>
         </nav>
     </header>
@@ -80,68 +87,69 @@
                 <section class="home" id="home">
                     <div class="home__container section bd-grid">
                         <div class="home__data bg-grid">
-                            <img src="assets/img/pushok.jpg" alt="profile picture" class="home__img">
+                            <img src="assets/img/original_photo.png" alt="profile picture" class="home__img">
 
                             <h1 class="home__title">GAIUK <b>OLEXANDR</b></h1>
-                            <h3 class="home__profession">Web Developer</h3>
+                            <!-- <h3 class="home__profession">Junior Developer</h3> -->
 
                             <div>
-                                <button class="home__button-movil" id="resume-button">Download</button>
+                                <!-- <button class="home__button-movil" id="resume-button-mobile">Download</button> -->
                                 <!-- <a download="" href="" class="home__button-movil">Download</a> -->
                             </div>
                         </div>
 
                         <div class="home__address bd-grid">
                             <span class="home__info">
-                                <i class='bx bx-map-alt'></i> Athens, Greece
+                                <i class="fa-solid fa-map-location-dot"></i> Athens, Greece
                             </span>
 
                             <span class="home__info">
-                                <i class='bx bx-envelope'></i></i> uaalex18@gmail.com
+                                <i class="fa-solid fa-at"></i> uaalex18@gmail.com
                             </span>
 
                             <span class="home__info">
-                                <i class='bx bx-phone-call'></i></i> 694 003 5184
+                                <i class="fa-solid fa-mobile"></i> (+30) 694 003 5184
                             </span>
                         </div>
                     </div>
                     <!-- Mode change button -->
-                    <i class='bx bx-moon change-mode' title="mode" id="mode-button" ></i>
+                    <i class='bx bx-moon change-mode' title="mode" id="mode-button"></i>
 
                     <!-- Download CV button -->
-                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+                    <!-- <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i> -->
                 </section>
 
 
                 <!--========== SOCIAL ==========-->
                 <section class="social-section">
-                    <h2 class="section-title">SOCIAL</h2>
+                    <h2 class="l-section-title">SOCIAL</h2>
 
                     <div class="social__container bd-grid">
-                        <a href="linked in url" target="_blank" class="social__link">
-                            <i class='bx bxl-linkedin-square'></i> My linked in
+                        <a href="https://www.linkedin.com/in/olexandr-gaiuk/" target="_blank" class="social__link">
+                            <i class='fa fa-linkedin'></i> LinkedIn
                         </a>
-                        <a href="github url" target="_blank" class="social__link">
-                            <i class='bx bxl-github'></i> My github
+                        <a href="https://github.com/alexgaiuk" target="_blank" class="social__link">
+                            <i class="fa-brands fa-github"></i> GitHub
                         </a>
-                        <a href="insta url" target="_blank" class="social__link">
-                            <i class='bx bxl-instagram'></i> My insta
-                        </a>
+                        <!-- <a href="insta url" target="_blank" class="social__link">
+                            <i class="fa-brands fa-square-instagram"></i> My insta
+                        </a> -->
                     </div>
                 </section>
 
                 <!--========== PROFILE ==========-->
                 <section class="profile-section" id="profile">
-                    <h2 class="section-title">Profile</h2>
+                    <h2 class="l-section-title">Profile</h2>
 
-                    <p class="profile__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A autem libero
-                        accusantium nemo voluptate, ipsam possimus quas esse eos sapiente cupiditate commodi nihil,
-                        porro numquam quis expedita maiores in. Rerum?</p>
+                    <p class="profile__desc">Graduate of Computer Science (First Class Honours). Self taught Unity
+                        developer with 2 years of working experience who is also exploring the front-end web development
+                        field. Looking for a role where I can grow and learn from experienced team members while drawing
+                        on project experience I have already executed.</p>
                 </section>
 
                 <!--========== EDUCATION ==========-->
                 <section class="education-section" id="education">
-                    <h2 class="section-title">Education</h2>
+                    <h2 class="l-section-title">Education</h2>
 
                     <div class="education__container bd-grid">
                         <div class="education__content">
@@ -151,9 +159,9 @@
                             </div>
 
                             <div class="education__data bd-grid">
-                                <h3 class="education__title">Education</h3>
-                                <span class="education__studies">Place of ed</span>
-                                <span class="education__year">year</span>
+                                <h3 class="education__title">University of Derby (Mediterranean College)</h3>
+                                <span class="education__studies">BSc Computer Science</span>
+                                <span class="education__year">2019-2022 | Athens, Greece</span>
                             </div>
                         </div>
 
@@ -164,9 +172,9 @@
                             </div>
 
                             <div class="education__data bd-grid">
-                                <h3 class="education__title">Education</h3>
-                                <span class="education__studies">Place of ed</span>
-                                <span class="education__year">year</span>
+                                <h3 class="education__title">1st Lyceum of Nea Smirni</h3>
+                                <span class="education__studies">High School Diploma</span>
+                                <span class="education__year">2016-2019 | Athens, Greece</span>
                             </div>
                         </div>
                     </div>
@@ -175,37 +183,37 @@
 
                 <!--========== SKILLS  ==========-->
                 <section class="skills-section" id="skills">
-                    <h2 class="section-title">Skills</h2>
+                    <h2 class="l-section-title">Skills</h2>
 
                     <div class="skills__content bd-grid">
                         <ul class="skills__data">
                             <li class="skills__name">
-                                <span class="skills__bullet"></span>Skill 1
+                                <span class="skills__bullet"></span>C#
                             </li>
                             <li class="skills__name">
-                                <span class="skills__bullet"></span>Skill 2
+                                <span class="skills__bullet"></span>C++
                             </li>
                             <li class="skills__name">
-                                <span class="skills__bullet"></span>Skill 3
+                                <span class="skills__bullet"></span>Unity
                             </li>
                             <li class="skills__name">
-                                <span class="skills__bullet"></span>Skill 4
+                                <span class="skills__bullet"></span>HTML
                             </li>
                         </ul>
 
                         <ul class="skills__data">
                             <li class="skills__name">
-                                <span class="skills__bullet"></span>Skill 5
+                                <span class="skills__bullet"></span>CSS
                             </li>
                             <li class="skills__name">
-                                <span class="skills__bullet"></span>Skill 6
+                                <span class="skills__bullet"></span>JavaScript
                             </li>
                             <li class="skills__name">
-                                <span class="skills__bullet"></span>Skill 7
+                                <span class="skills__bullet"></span>Python (ML)
                             </li>
-                            <li class="skills__name">
-                                <span class="skills__bullet"></span>Skill 8
-                            </li>
+                            <!-- <li class="skills__name">
+                                <span class="skills__bullet"></span>Blender
+                            </li> -->
                         </ul>
                     </div>
                 </section>
@@ -215,7 +223,7 @@
             <div class="resume__right">
                 <!--========== EXPERIENCE ==========-->
                 <section class="experience-section" id="experience">
-                    <h2 class="section-title">Experience</h2>
+                    <h2 class="r-section-title">Experience</h2>
 
                     <div class="experience__container bd-grid">
                         <div class="experience__content">
@@ -225,12 +233,13 @@
                             </div>
 
                             <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Title 1</h3>
-                                <span class="experience__company">2000 - 1212 Company</span>
+                                <h3 class="experience__title">Junior Game Developer | Helvete Games</h3>
+                                <span class="experience__company">May 2022 - Feb 2023</span>
                                 <p class="experience__desc">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos veritatis eum
-                                    unde, nulla laudantium cumque quibusdam. Aspernatur obcaecati odit animi aliquam
-                                    quam ratione. Officia, eos hic modi ea facere incidunt.
+                                    <b>-</b> Worked with software development and testing team members to design and
+                                    develop
+                                    video games for desktop, mobile and Virtual Reality (VR) devices. <br><br>
+                                    <b>-</b> Helped creating projects for tourism and education businesses.
                                 </p>
                             </div>
                         </div>
@@ -241,53 +250,194 @@
                             </div>
 
                             <div class="experience__data bd-grid">
-                                <h3 class="experience__title">Title 2</h3>
-                                <span class="experience__company">2000 - 1212 Company</span>
+                                <h3 class="experience__title">Help Desk Assistant | Helvete Games</h3>
+                                <span class="experience__company">Mar 2021 - Jan 2022 | Helvete Games</span>
                                 <p class="experience__desc">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos veritatis eum
-                                    unde, nulla laudantium cumque quibusdam. Aspernatur obcaecati odit animi aliquam
-                                    quam ratione. Officia, eos hic modi ea facere incidunt.
+                                    <b>-</b> Assessed, troubleshot and repaired desktops and printers. <br><br>
+                                    <b>-</b> Patched software and installed new versions to eliminate security problems
+                                    and protect data.
+
                                 </p>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <!--========== CERTIFICATES ==========-->
+                <!--========== PROJECTS ==========-->
+                <section class="projects section" id="projects">
+                    <h2 class="r-section-title">Projects</h2>
 
+                    <div class="projects__container bd-grid">
+                        <div class="projects__content">
+                            <div class="projects__time">
+                                <span class="projects__bullet"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="projects__data bd-grid">
+                                <h3 class="projects__title">HermesX</h3>
+                                <p class="projects__desc">
+                                    <b>-</b> HermesX is a VR video game for Oculus Devices. <br><br>
+                                    <b>-</b> Developed and troubleshot the core
+                                    mechanics of the game such as Combat System, Health Management, Interaction With
+                                    Environment (opening doors, picking up weapons and ammo). <br><br>
+                                    Game Engine: Unity <br>
+                                    Programming Language: C# <br><br>
+                                    <a
+                                        href="https://www.oculus.com/experiences/quest/6233957473323910/?ranking_trace=129944115306088_6233957473323910_SKYLINEWEB_b53599be-d15d-44a3-8d31-728a505c006e">Game
+                                        Link</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="projects__content">
+                            <div class="projects__time">
+                                <span class="projects__bullet"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="projects__data bd-grid">
+                                <h3 class="projects__title">Time Is Running (Dissertation Project)</h3>
+                                <p class="projects__desc">
+                                    <b>-</b> 2D Endless Runner Video Game for desktops and mobile devices.<br>
+                                    Notable feautures: No loading screens, background Parallax Effect.
+
+                                    Game Engine: Unity <br>
+                                    Programming Language: C# <br>
+                                    Additional Software: Photoshop CS
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="projects__content">
+                            <div class="projects__time">
+                                <span class="projects__bullet"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="projects__data bd-grid">
+                                <h3 class="projects__title">Gravity Lab (VR)</h3>
+                                <p class="projects__desc">
+                                    <b>-</b> A school lab where users can experience each of our
+                                    solar system planets’
+                                    gravity by a press of a button. <br><br>
+                                    <b>-</b> Several objects that are scattered around get
+                                    affected by gravity which the player can interact with.<br><br>
+
+                                    Game Engine: Unity <br>
+                                    Programming Language: C#
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="projects__content">
+                            <div class="projects__time">
+                                <span class="projects__bullet"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="projects__data bd-grid">
+                                <h3 class="projects__title">Anatomy Lab (VR)</h3>
+                                <p class="projects__desc">
+                                    <b>-</b> A lab where players can interact with bones, muscles and organs of the
+                                    human body and gain information about each.<br><br>
+
+                                    Game Engine: Unity <br>
+                                    Programming Language: C#
+                                </p>
+                            </div>
+                        </div>
+
+                        <h3>University Projects</h3>
+
+                        <div class="projects__content">
+                            <div class="projects__time">
+                                <span class="projects__bullet"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="projects__data bd-grid">
+                                <h3 class="projects__title">NES Emulator Website UI</h3>
+                                <p class="projects__desc">
+                                    <b>-</b> Created website for a Nintendo Entertainment System Emulator.<br><br>
+
+                                    Languages: HTML, CSS <br>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="projects__content">
+                            <div class="projects__time">
+                                <span class="projects__bullet"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="projects__data bd-grid">
+                                <h3 class="projects__title">Python ML: Text Processing of a Twitter Customer Support
+                                    dataset</h3>
+                                <p class="projects__desc">
+                                    <b>-</b> Applied several text processing techniques (stemming, lemmatization,
+                                    emoji removal etc.) to filter Twitter customer support messages.<br><br>
+
+                                    <!-- <a href="https://www.kaggle.com/code/alexg99/text-processing-100530129">Project Link</a>  -->
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="projects__content">
+                            <div class="projects__time">
+                                <span class="projects__bullet"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="projects__data bd-grid">
+                                <h3 class="projects__title">Python ML: Titanic - Machine Learning from Disaster</h3>
+                                <p class="projects__desc">
+                                    <b>-</b> Created a model that predicts which passengers survived the Titanic
+                                    shipwreck based on given data.<br><br>
+
+                                    <!-- <a href="https://www.kaggle.com/code/alexg99/titanic-eda-100530129">Project Link</a> -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
 
 
                 <!--========== REFERENCES ==========-->
                 <section class="references-section" id="references">
-                    <h2 class="section-title">References</h2>
+                    <h2 class="r-section-title">References</h2>
 
                     <div class="references__container bd-grid">
                         <div class="references__content bd-grid">
-                            <span class="references__subtitle">Sr. Director</span>
-                            <h3 class="references__title">Mr. John Doe</h3>
+                            <span class="references__subtitle">CEO of Helvete Games</span>
+                            <h3 class="references__title">Mr. Vasilios Vogkas</h3>
                             <ul class="references__content">
-                                <li>Email: johndoe@gmail.com</li>
+                                <li>Email: vasilisvogkas@gmail.com</li>
                             </ul>
                         </div>
                     </div>
                 </section>
 
                 <!--========== LANGUAGES ==========-->
-                <section class="languages-section">
-                    <h2 class="section-title">Languages</h2>
+                <section class="languages-section" id="languages">
+                    <h2 class="r-section-title">Languages</h2>
 
                     <div class="languages__container">
                         <ul class="languages__content bd-grid">
                             <li class="languages__name">
-                                <span class="languages__bullet"></span>Greek
+                                <span class="languages__bullet"></span><b>Greek</b>&nbsp; | Native
                             </li>
                             <li class="languages__name">
-                                <span class="languages__bullet"></span>Russian
+                                <span class="languages__bullet"></span><b>Russian</b>&nbsp; | Native
                             </li>
                             <li class="languages__name">
-                                <span class="languages__bullet"></span>English
+                                <span class="languages__bullet"></span><b>Engilsh</b>&nbsp; | Proficiency
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__bullet"></span><b>Ukrainian</b>&nbsp; | Basic
                             </li>
                         </ul>
                     </div>
@@ -295,23 +445,23 @@
 
                 <!--========== INTERESTS ==========-->
                 <section class="interests-section">
-                    <h2 class="section-title">Interests</h2>
+                    <h2 class="r-section-title">Interests</h2>
 
                     <div class="interests__container bd-grid">
                         <div class="interests__content">
-                            <i class='bx bx-package' ></i>
-                            <span class="interests__name">Combat Sports</span>
+                            <i class="fa-solid fa-medal"></i>
+                            <span class="interests__name">Martial Arts</span>
                         </div>
                         <div class="interests__content">
-                            <i class='bx bx-run' ></i>
+                            <i class="fa-solid fa-person-running"></i>
                             <span class="interests__name">Running</span>
                         </div>
                         <div class="interests__content">
-                            <i class='bx bx-game' ></i>
+                            <i class="fa-solid fa-headset"></i>
                             <span class="interests__name">Gaming</span>
                         </div>
                         <div class="interests__content">
-                            <i class='bx bxl-deezer' ></i>
+                            <i class="fa-solid fa-music"></i>
                             <span class="interests__name">Music</span>
                         </div>
                     </div>
@@ -322,7 +472,7 @@
 
     <!--========== SCROLL TOP ==========-->
     <a href="#" class="scroll-top" id="scrolltop">
-        <i class='bx bx-up-arrow-circle'></i>
+        <i class="fa-solid fa-arrow-up"></i>
     </a>
 
     <!--========== HTML2PDF ==========-->
