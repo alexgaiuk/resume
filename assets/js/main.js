@@ -102,8 +102,8 @@ let resumeButtonMobile = document.getElementById("resume-button-mobile")
 let opt = {
     margin:       0,
     filename:     'GaiukResume.pdf',
-    image:        { type: 'png', quality: 0.98 },
-    html2canvas:  { scale: 1 },
+    image:        { type: 'jpeg', quality: 0.98 },
+    html2canvas:  { scale: 4 },
     jsPDF:        { format: 'a4', orientation: 'portrait' }
   };
 
