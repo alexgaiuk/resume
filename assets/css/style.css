@@ -131,12 +131,6 @@ body.dark-mode {
   transition: .3s;
 }
 
-
-
-
-
-
-
 /* Scroll top */
 .scroll-top {
   position: fixed;
@@ -232,5 +226,9 @@ body.dark-mode {
 
   .generate-pdf {
     display: inline-block;
+  }
+
+  .section a {
+    margin-left: 10px;
   }
 }
