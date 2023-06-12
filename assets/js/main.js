@@ -101,7 +101,7 @@ let resumeButtonMobile = document.getElementById("resume-button-mobile")
 // Html2pdf options
 let opt = {
     margin:       0,
-    filename:     'GaiukResume.pdf',
+    filename:     'Gaiuk_Olexandr_Resume.pdf',
     image:        { type: 'png', quality: 0.98 },
     html2canvas:  { scale: 4 },
     jsPDF:        { format: 'a4', orientation: 'portrait' }
